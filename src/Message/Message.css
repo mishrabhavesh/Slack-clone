@@ -1,0 +1,12 @@
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.message > img {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 6px;
+    margin: .5rem;
+    object-fit: contain;
+}
