@@ -10,3 +10,9 @@
     margin: .5rem;
     object-fit: contain;
 }
+
+.message__timestamp {
+    color: grey;
+    font-weight: 400;
+    margin-left: .5rem;
+}

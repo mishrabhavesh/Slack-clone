@@ -14,6 +14,7 @@ const Header = () => {
             className="header__avatar"
             alt="bhavesh"
             src=''
+            style={{height: '2rem', width: '2rem'}}
           />
           <AccessTimeIcon />
         </div>
