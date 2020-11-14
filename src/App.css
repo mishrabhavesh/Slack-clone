@@ -4,5 +4,23 @@
 
 .app__body {
     display: flex;
-    height: 100vh;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+.welcome__message {
+    width: 50vw;
+    height: 8rem;
+    margin: auto;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding: 8rem;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.dribbble.com/users/2479503/screenshots/6384602/chat_background.png");
 }

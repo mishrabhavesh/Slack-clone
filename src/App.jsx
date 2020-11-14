@@ -23,7 +23,11 @@ function App() {
                   <Chat />
                 </Route>
                 <Route path="/">
-                  <div>Welcome</div>
+                  <div class="welcome__message">
+                    <h3>
+                      Hello everyone now you can have your own chat room so go and hit the add channel button and and create your custom chat room
+                    </h3>
+                  </div>
                 </Route>
               </Switch>
             </div>

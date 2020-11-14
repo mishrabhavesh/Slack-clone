@@ -17,6 +17,7 @@ const ChatInput = ({channelName, channelId}) => {
                 userImage: user?.photoURL
             })
         }
+        setInput('');
     }
 
     const chatInputHandler = e => setInput(e.target.value);
@@ -25,6 +26,7 @@ const ChatInput = ({channelName, channelId}) => {
         <div className="chat-input">
             <form>
                 <input
+                class="chat-input__box"
                 placeholder={`Message #${channelName}`}
                 value={input}
                 onChange={chatInputHandler}

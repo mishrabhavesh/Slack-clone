@@ -10,11 +10,11 @@
 
 .chat-input > form > input {
     position: fixed;
-    bottom: 30px;
+    bottom: 1.875rem;
     width: 60%;
     border: 1px solid grey;
     border-radius: 3px;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .chat-input > form > button {
