@@ -13,6 +13,7 @@ import FileCopyIcon from '@material-ui/icons/FileCopy';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
+import Skeleton from 'react-loading-skeleton';
 
 import db from '../firebase';
 
@@ -35,7 +36,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <div className="sidebar__header">
                 <div className="sidebar__info">
-                    <h2>My work space</h2>
+                    <h2>Work Space</h2>
                     <h3>
                         <FiberManualRecordIcon />
                         Bhavesh
@@ -55,6 +56,7 @@ const Sidebar = () => {
             <SidebarOptions Icon={ExpandMoreIcon} title="Channels" />
             <hr />
             <SidebarOptions Icon={AddIcon} title="Add Channel" addChannelOptions={true} />
+            { channels ? '' : <Skeleton count={10} duration={2}  />}
             {channels?.map(channel => (
                 <SidebarOptions title={channel.name} key={channel.id} Id={channel.id} />
             ))}

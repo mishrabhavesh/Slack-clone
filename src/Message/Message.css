@@ -1,13 +1,14 @@
 .message {
     display: flex;
-    align-items: center;
+    align-items: start;
+    padding: 4px;
 }
 
 .message > img {
     height: 3.125rem;
     width: 3.125rem;
     border-radius: 6px;
-    margin: .5rem;
+    margin: 0 .5rem;
     object-fit: contain;
 }
 
@@ -15,4 +16,12 @@
     color: grey;
     font-weight: 400;
     margin-left: .5rem;
+}
+
+.message__text {
+    width: 60vw;
+    line-height: 1.7;
+    padding: .5rem 0;
+    font-size: 12px;
+    font-weight: 400;
 }

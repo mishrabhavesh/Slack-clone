@@ -13,14 +13,14 @@
 }
 
 .welcome__message {
-    width: 50vw;
-    height: 8rem;
-    margin: auto;
+    width: 40vw;
+    height: 60vh;
+    margin: 1rem auto;
     font-size: 1rem;
     color: white;
     font-weight: 400;
     text-align: center;
-    padding: 8rem;
+    padding: 4rem;
     background-repeat: no-repeat;
     background-image: url("https://cdn.dribbble.com/users/2479503/screenshots/6384602/chat_background.png");
 }

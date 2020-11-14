@@ -13,7 +13,7 @@ const Message = ({message, timestamp, user, userImage}) => {
                         {new Date(timestamp?.toDate()).toUTCString()}
                     </span>
                 </h4>
-                <p>
+                <p className="message__text">
                     {message}
                 </p>
             </div>

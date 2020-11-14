@@ -3,7 +3,7 @@
     border-top: 1px solid #49274b;
     max-width: 260px;
     color: white;
-    flex: 0.3;
+    padding: 0 .4rem;
 }
 
 .sidebar > hr {
@@ -22,7 +22,7 @@
 .sidebar__header > .MuiSvgIcon-root {
     padding: .5rem;
     color: #49274b;
-    font-size: 1.125rem;
+    font-size: .8rem;
     background-color: white;
     border-radius: 999px;
 }
@@ -39,4 +39,15 @@
     margin-top: 1px;
     margin-right: 2px;
     color: green;
+}
+
+.sidebar__info > h2 {
+    font-size: 1rem;
+}
+
+.sidebar__info {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

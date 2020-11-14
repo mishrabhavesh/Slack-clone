@@ -26,7 +26,7 @@ const ChatInput = ({channelName, channelId}) => {
         <div className="chat-input">
             <form>
                 <input
-                class="chat-input__box"
+                className="chat-input__box"
                 placeholder={`Message #${channelName}`}
                 value={input}
                 onChange={chatInputHandler}
