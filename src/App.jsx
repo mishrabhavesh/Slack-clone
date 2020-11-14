@@ -5,9 +5,10 @@ import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 import Chat from './Chat/Chat'
 import Login from './Login/Login'
+import { useStateValue } from './Reducer/stateProvider';
 
 function App() {
-  const [user, setUser] = useState(null)
+  const [state, dispatch] = useStateValue();
   return (
     <div className="App">
       <Router>
