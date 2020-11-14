@@ -18,8 +18,8 @@
     color: white;
 }
 
-h3 {
-    margin-top: 15vw;
+.login__container > h3 {
+    margin-top: 3rem;
     font-size: 1.5rem;
 }
 
@@ -34,4 +34,9 @@ h1 {
     border-radius: 12px;
     width: 80vh;
     margin: .7rem auto;
+}
+
+.login__my-image {
+    border-radius: 6px;
+    margin-top: 1rem;
 }
